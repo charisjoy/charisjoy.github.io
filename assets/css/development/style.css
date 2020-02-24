@@ -2189,11 +2189,11 @@ header {
   background-color: #faa4b7;
 }
 header.roche-header {
-  background-image: url("/roche/assets/media/image/bc-header-desktop.png");
+  background-image: url("/assets/media/image/bc-header-desktop.png");
 }
 @media (max-width: 75em) {
   header.roche-header {
-    background-image: url("/roche/assets/media/image/bc-header-mobile.png");
+    background-image: url("/assets/media/image/bc-header-mobile.png");
   }
 }
 header.roche-header h1 > span:first-child {
