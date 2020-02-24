@@ -1,0 +1,115 @@
+/* Footer & Disclaimer */
+.main-footer {
+  background-color: #d8d1db;
+  margin-top: 60px;
+}
+
+.disclaimer p {
+  font-size: 12px !important;
+}
+
+.footer-content {
+  font-size: 14px !important;
+}
+
+.disclaimer p {
+  padding: 20px 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  color: #994789;
+}
+
+.copyright {
+  background-color: #994789;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: 'Raleway', sans-serif !important;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.privacy-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.privacy-link:hover {
+  text-decoration: underline !important;
+  text-decoration-color: #fff;
+  color: #fff;
+}
+
+.footer-privacy-disclaimer .disclaimer,
+.footer-privacy-disclaimer .footer-content {
+  padding-right: 43px;
+  padding-left: 43px;
+}
+
+.footer-privacy-disclaimer .disclaimer p,
+.footer-privacy-disclaimer .footer-content {
+  font-size: 12.5px;
+}
+
+@media (max-width: 768px) {
+  .footer-content, .disclaimer {
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+  }
+}
+@media (max-width: 400px) {
+  .disclaimer p,
+  .footer-content {
+    font-size: 12px;
+  }
+}
+
+/* 
+** her2 COLORS
+*/
+
+/* disclaimer */
+.footer-her2-disclaimer {
+  background-color: #d8d1db;
+}
+
+/* copyright */
+.footer-her2-copyright {
+  background-color: #994789;
+  color: #fff;
+}
+
+/* 
+** roche COLORS
+*/
+
+/* disclaimer */
+.footer-roche-disclaimer {
+  background-color: #fceef1;
+  color: #73426a;
+}
+
+/* copyright */
+.footer-roche-copyright {
+  background-color: #faa4b7;
+}
+
+/* 
+** privacy COLORS
+*/
+
+/* disclaimer */
+.footer-privacy-disclaimer {
+  background-color: #d8d1db;
+}
+
+/* copyright */
+.footer-privacy-copyright {
+  background-color: #994789;
+  color: #fff;
+}
