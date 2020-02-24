@@ -1,0 +1,14 @@
+{
+  "name": "Roche",
+  "short_name": "Roche",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/assets/media/icon/PWA-icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ]
+}
