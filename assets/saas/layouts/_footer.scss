@@ -1,0 +1,61 @@
+// .footer {
+//   margin-top: 3.75rem;
+//   font-size: 1rem;
+//   width: 100%;
+//   z-index: 999;
+//   bottom: 0;
+//   overflow-y: hidden;
+//   transition: 1s;
+
+//   @include responsive(phone) {
+//     margin-top: 0;
+//   }
+
+//   .copyright {
+//     padding: 1rem 0;
+//     color: #fff;
+//     font-size: .875rem;
+//     position: relative;
+//     z-index: 9;
+
+//     .container {
+//       display: flex;
+//       justify-content: space-between;
+//     }
+//   }
+
+//   // roche footer color 
+//   &.footer-roche-disclaimer {
+//     background-color: $primary-light;
+//     color: #73426a;
+//   }
+
+//   .footer-roche-copyright {
+//     background-color: $primary-medium;
+//   }
+
+//   // her2 footer color
+//   &.footer-her2-disclaimer {
+//     background-color: #d8d1db;
+//     color: #73426a;
+//   }
+
+//   .footer-her2-copyright {
+//     background-color: $primary-dark;
+//   }
+
+//   p {
+//     padding: 1.25rem 0;
+//     margin-bottom: 0;
+
+//     @include responsive(phone) {
+//       font-size: .875rem;
+//     }
+//   }
+
+//   a:hover {
+//     color: $color-white;
+//     text-decoration-color: $color-white;
+//     text-decoration: underline !important;
+//   }
+// }

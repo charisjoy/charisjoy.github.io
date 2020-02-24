@@ -1,0 +1,138 @@
+main#her2 {
+  @include responsive(phone) {
+    padding: 0 1.5625rem;
+  }
+}
+
+.play-button-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  > img {
+    @include responsive(phone) {
+      height: 5.625rem;
+    }
+  }
+}
+
+.to-play-video {
+  width: auto;
+  height: 8.125rem;
+}
+
+.slides-switcher {
+  // filter: invert(90%) sepia(93%) saturate(1352%) hue-rotate(87deg) brightness(119%) contrast(119%);
+  filter: invert(37%) sepia(12%) saturate(2653%) hue-rotate(260deg) brightness(90%) contrast(85%);
+
+  &:hover {
+    filter: invert(78%) sepia(59%) saturate(197%) hue-rotate(125deg) brightness(87%) contrast(92%);
+  }
+}
+
+.carousel-indicators {
+  margin-left: .75rem !important;
+  justify-content: flex-start !important;
+  z-index: 100 !important;
+  margin-bottom: 0;
+
+  @include responsive(phone) {
+    justify-content: center !important;
+    margin: 0 !important;
+  }
+}
+
+.carousel-indicators li {
+  background-color: #d7d7d7 !important;
+}
+
+.carousel-indicators li.active {
+  background-color: #85cdc7 !important;
+}
+
+main {
+  position: relative;
+  z-index: 999;
+}
+
+.quality-text {
+  margin-bottom: 0;
+  width: 70%;
+  margin: auto;
+}
+
+#her2 article.row, .tab-two {
+  margin-top: 4rem;
+
+  @include responsive(phone) {
+    margin-top: .9375rem;
+  }
+}
+
+.text-box-onscroll {
+  text-align: center;
+  padding: 2.5rem 0;
+  border-bottom: 2px solid #9a4889;
+
+  @include responsive(phone) {
+    padding: 1.25rem 0;
+  }
+}
+
+.success-rates > *:first-of-type {
+  @include responsive(phone) {
+    order: 1;
+  }
+}
+
+.carousel-control-prev, .carousel-control-next {
+  @include responsive(phone) {
+    top: 13rem !important;
+    align-items: initial !important;
+  }
+
+  @include responsive(medium-phone) {
+    top: 11.8rem !important;
+  }
+}
+
+.treatment {
+  font-size: 1.0625rem;
+}
+
+.quality-wrapper {
+  display: none;
+  margin-top: 4rem;
+  text-align: center;
+  background-color: #85cdc7;
+  color: #fff;
+  padding: 1.25rem 0;
+}
+
+.arrow-down {
+  display:none;
+  position: absolute;
+  bottom: 22%;
+  left: calc(50% - 25px);
+  // transform: translateX(-50%);
+  animation: bounce 1s linear 0s infinite alternate;
+
+  @include responsive(tablet-portrait) {
+    display: block;
+  }
+}
+
+.second-view h3 {
+  font-size: 16px;
+}
+
+@media (min-width: 769px) {
+  .carousel-control-next {
+    right: -105px !important;
+  }
+  
+  .carousel-control-prev {
+    left: -105px !important;
+  }
+}

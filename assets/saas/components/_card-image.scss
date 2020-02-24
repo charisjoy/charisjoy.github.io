@@ -1,0 +1,63 @@
+div.card-image {
+  display: none;
+
+  h3 {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  @include responsive(tablet-portrait) {
+    margin-top: 35px !important;
+    margin-bottom: 20px;
+    min-height: auto;
+  }
+
+  #mobile-surgeons {
+    display: none;
+    width: 100% !important;
+
+    @include responsive(tablet-portrait) {
+      display: block;
+    }
+  }
+
+  #desktop-surgeons {
+    display: none;
+  }
+
+  img {
+    width: 250px;
+    height: 100%;
+  }
+
+  &.last {
+    h3 {
+      align-self: center;
+    }
+
+    img {
+      width: 160px;
+    }
+
+    & > * {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    & > *:not(:last-of-type) {
+      margin-bottom: 3rem;
+    }
+  }
+}
+
+@media (min-width: 56.3125em) {
+  div.card-image {
+    #desktop-surgeons {
+      display: block;
+    }
+
+    #mobile-surgeons {
+      display: none;
+    }
+  }
+}

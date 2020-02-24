@@ -1,0 +1,11 @@
+.right-image {
+  & > *:first-child {
+    padding-right: 8.6%;
+  }
+
+  @include responsive(phone) {
+    p {
+      margin-bottom: 0;
+    }
+  }
+}

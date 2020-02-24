@@ -1,0 +1,15 @@
+.lists {
+  list-style: none;
+
+  &.icon-top {
+    & > li {
+      background-position: left 6%;
+    }
+  }
+
+  & > li {
+    background: url($path + '/assets/media/image/flower-bullet.png') left center no-repeat;
+    padding-left: 30px;
+    margin-bottom: 5px;
+  }
+}

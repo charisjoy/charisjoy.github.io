@@ -1,0 +1,19 @@
+.logo-box {
+  position: absolute;
+  top: 1.875rem;
+  left: 6%;
+
+  img {
+    width: 80px;
+  }
+  
+  @include responsive(tablet-portrait) {
+    left: 7%;
+    top: 1.125rem;
+    z-index: 99;
+  }
+
+  @include responsive(tablet-portrait) {
+    width: 4.3rem;
+  }
+}

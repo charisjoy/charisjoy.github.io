@@ -1,0 +1,112 @@
+#bc {
+  z-index: 0;
+}
+
+.image-box {
+  article {
+    margin-bottom: .5rem;
+
+    @include responsive(tablet-portrait) {
+      margin-top: 1.75rem !important;
+    }
+
+    &:last-of-type {
+      div {
+        &:first-of-type {
+          @include responsive(phone) {
+            order: 1;
+          }
+        }
+
+        &:last-of-type {
+          @include responsive(tablet-portrait) {
+            margin-bottom: 2.5rem;
+            padding-left: 2.5rem !important;
+            padding-right: 2.5rem !important;
+          }
+        }
+      }
+    }
+
+    &:first-of-type {
+      > *:first-of-type {
+        @include responsive(tablet-portrait) {
+          padding-left: 2.5rem !important;
+          padding-right: 2.5rem !important;
+        }
+      }
+    }
+
+    div {  
+      @include responsive(tablet-portrait) {
+        padding: 0;
+      }
+
+      &:first-of-type {
+        @include responsive(tablet-portrait) {
+          margin-bottom: 2.5rem;
+        }
+      }
+
+      &:last-of-type {
+        div {
+          @include responsive(tablet-portrait) {
+            margin-bottom: 3rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+.image-box h2 {
+  font-size: 1.5rem;
+}
+.image-box p {
+  padding-top: 1rem;
+}
+
+.card-box p {
+  padding-top: 1.5rem;
+}
+
+.image-box p,
+.card-box p {
+  font-size: .875rem;
+
+  @include responsive(tablet-portrait) {
+    // font-size: .9375rem;
+    font-size: 1rem;
+    color: #444;
+  }
+}
+
+.card-box {
+  margin-bottom: 6.25rem;
+
+  @include responsive(phone) {
+    padding: 0 3.125rem !important;
+  }
+
+  & > *:first-child {
+    @include responsive(tablet-portrait) {
+      margin-top: .5rem !important;
+    }
+  }
+
+  @include responsive(phone) {
+    margin-bottom: 0;
+  }
+
+  article {
+    @include responsive(tablet-landscape) {
+      margin-bottom: 3.125rem;
+    }
+  }
+}
+
+.card, .card-image {
+  @include responsive(tablet-landscape) {
+    min-height: auto;
+  }
+}

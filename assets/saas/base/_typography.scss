@@ -1,0 +1,53 @@
+// @font-face {
+//   font-family: 'Gotham Bold';
+//   src: url($path + '/assets/fonts/Gotham-Bold.otf');
+//   font-weight: bold;
+//   font-style: normal;
+// }
+
+// @font-face {
+//   font-family: 'Gotham Book';
+//   src: url($path + '/assets/fonts/Gotham-Book.otf');
+//   font-weight: normal;
+//   font-style: normal;
+// }
+
+body {
+  font-family: 'Raleway', Arial, Helvetica, sans-serif !important;
+  font-weight: normal;
+  line-height: 1.7;
+  color: #000;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #faa4b7;
+
+  @include responsive(tablet-portrait) {
+    font-size: 1.5625rem;
+  }
+}
+
+html {
+  @include responsive(tablet-portrait) {
+    font-size: calc(16px + (24 - 16) * (100vw - 320px) / (1200 - 320));
+  }
+}
+
+#her2 {
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #000;
+}
+
+#her2 > * {
+  font-family: inherit;
+}
+
+// #her2 .tab-sub-text,
+// #her2 .lists,
+// #her2 .tab-heading + p,
+// #her2 .text-box-onscroll,
+p, .tab-sub-text, .text-box-onscroll, li{
+  font-size: 14px !important;
+}

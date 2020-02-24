@@ -1,0 +1,11 @@
+.left-image {
+  & > *:last-child {
+    padding-left: 8.6%;
+  }
+
+  @include responsive(phone) {
+    p {
+      margin-bottom: 0;
+    }
+  }
+}

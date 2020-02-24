@@ -1,0 +1,26 @@
+.column-center {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.row-center {
+  display: flex;
+  justify-content: center;
+}
+
+.space-top {
+  margin-top: 3rem;
+}
+
+.space-bottom {
+  margin-bottom: 1.5rem;
+}
+
+.heading-2 {
+  margin-top: 1rem;
+}
+
+.text-center {
+  text-align: center;
+}

@@ -1,0 +1,52 @@
+.button {
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 14px;
+
+  &-show-more {
+    color: $primary-dark !important;
+    margin-top: 0.625rem;
+    border-bottom: 1px solid $primary-dark;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  &-privacy-policy {
+    color: $color-white;
+  }
+
+  &-learn-more-her2 {
+    padding: .6875rem 1.25rem;
+    margin-top: 2.5rem;
+    color: $color-white;
+    text-transform: uppercase;
+    background-color: $primary-dark;
+
+    @include responsive(tablet-portrait) {
+      font-size: .5625em;
+      padding: .4375rem .6875rem;
+      margin-top: 1.2rem;
+    }
+
+    @include responsive(phone) {
+      font-size: .875rem;
+      padding: .5rem .625rem;
+      margin-top: .3rem;
+    }
+  }
+}
+
+/*
+** BUTTON HOVER
+*/
+.button-learn-more-her2:hover {
+  background-color: #c769a0;
+  color: $color-white;
+}
+
+.button-show-more:hover {
+  color: #D39BCB;
+  border-bottom: 1px solid #D39BCB;
+}
