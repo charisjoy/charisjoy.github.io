@@ -2201,7 +2201,7 @@ header.roche-header h1 > span:first-child {
   font-weight: 700;
 }
 header.her2-header {
-  background-image: url("/roche/assets/media/image/her2-header-desktop.png");
+  background-image: url("/assets/media/image/her2-header-desktop.png");
 }
 @media (max-width: 56.25em) {
   header.her2-header {
@@ -2210,7 +2210,7 @@ header.her2-header {
 }
 @media (max-width: 37.5em) {
   header.her2-header {
-    background-image: url("/roche/assets/media/image/her2-header-mobile.png");
+    background-image: url("/assets/media/image/her2-header-mobile.png");
     background-position: top;
   }
 }
