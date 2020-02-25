@@ -1,6 +1,6 @@
 const staticCacheName = 'site-static-v5';
 const assets = [
-  '/',
+  './',
   'index.html',
   'her2.html',
   './assets/js/roche-script.js',
