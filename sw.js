@@ -19,7 +19,8 @@ const assets = [
   './assets/media/image/Early-Stage/Neoadjuvant/success-rate.png',
   './assets/media/image/Early-Stage/Neoadjuvant/lifestyle-1.png',
   './assets/media/image/Early-Stage/Neoadjuvant/lifestyle-2.png',
-  './assets/media/image/Early-Stage/Neoadjuvant/lifestyle-3.png'
+  './assets/media/image/Early-Stage/Neoadjuvant/lifestyle-3.png',
+  './assets/media/video/Her2-Animation.mp4'
 ];
 
 // install event
