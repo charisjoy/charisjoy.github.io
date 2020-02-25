@@ -2,6 +2,7 @@ const staticCacheName = 'site-static-v5';
 const assets = [
   '/',
   'index.html',
+  'her2.html',
   './assets/js/roche-script.js',
   './assets/css/production/style.min.css',
   './assets/media/image/bc-header-desktop.png',
@@ -11,7 +12,14 @@ const assets = [
   './assets/media/image/hope.png',
   './assets/media/image/column1.png',
   './assets/media/image/column2.png',
-  './assets/media/image/column3.png'
+  './assets/media/image/column3.png',
+  './assets/media/image/Early-Stage/Neoadjuvant/treatmentgoals-1.png',
+  './assets/media/image/Early-Stage/Neoadjuvant/treatmentgoals-2.png',
+  './assets/media/image/Early-Stage/Neoadjuvant/treatmentgoals-3.png',
+  './assets/media/image/Early-Stage/Neoadjuvant/success-rate.png',
+  './assets/media/image/Early-Stage/Neoadjuvant/lifestyle-1.png',
+  './assets/media/image/Early-Stage/Neoadjuvant/lifestyle-2.png',
+  './assets/media/image/Early-Stage/Neoadjuvant/lifestyle-3.png'
 ];
 
 // install event
