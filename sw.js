@@ -1,17 +1,17 @@
 const staticCacheName = 'site-static-v5';
 const assets = [
   '/',
-  '/index.html',
-  '/assets/js/roche-script.js',
-  '/assets/css/production/style.min.css',
-  '/assets/media/image/header-desktop.png',
-  '/assets/media/image/header-mobile.png',
-  'assets/media/logo/roche-logo-white.png',
-  'assets/media/image/unraveling.png',
-  'assets/media/image/hope.png',
-  'assets/media/image/column1.png',
-  'assets/media/image/column2.png',
-  'assets/media/image/column3.png'
+  'index.html',
+  './assets/js/roche-script.js',
+  './assets/css/production/style.min.css',
+  './assets/media/image/bc-header-desktop.png',
+  './assets/media/image/bc-header-mobile.png',
+  './assets/media/logo/roche-logo-white.png',
+  './assets/media/image/unraveling.png',
+  './assets/media/image/hope.png',
+  './assets/media/image/column1.png',
+  './assets/media/image/column2.png',
+  './assets/media/image/column3.png'
 ];
 
 // install event
