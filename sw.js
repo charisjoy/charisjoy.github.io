@@ -3,6 +3,7 @@ const assets = [
   './',
   'index.html',
   'her2.html',
+  'privacypolicy.html',
   './assets/js/roche-script.js',
   './assets/css/production/style.min.css',
   './assets/media/image/bc-header-desktop.png',
