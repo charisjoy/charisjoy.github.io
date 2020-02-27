@@ -40,6 +40,12 @@ function overflowHide(){
   document.querySelector('.top-main-nav').style.overflow = 'hidden';
 }
 
+// tab selection
+document.querySelector('.nav-item').addEventListener('click', function () {
+  document.querySelector('.sub-tabs.nav-item').remove = 'active';
+});
+
+
 window.onscroll = function () {
   let nav = document.querySelector('#nav');
   let top_nav = document.querySelector('.top-main-nav');
