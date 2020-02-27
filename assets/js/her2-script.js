@@ -32,6 +32,14 @@ function changeView2() {
   document.querySelector('.second-view').style.display = 'flex';
 }
 
+function overflowShow(){
+  document.querySelector('.top-main-nav').style.overflow = 'visible';
+}
+
+function overflowHide(){
+  document.querySelector('.top-main-nav').style.overflow = 'hidden';
+}
+
 window.onscroll = function () {
   let nav = document.querySelector('#nav');
   let top_nav = document.querySelector('.top-main-nav');

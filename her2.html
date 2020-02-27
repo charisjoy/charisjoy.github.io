@@ -79,16 +79,29 @@
       </a>
     </div>
     <div class="top-main-nav">
-      <div class="nav nav-tabs sub-tabs-2" id="nav-tab" role="tablist">
+      <!--div class="nav nav-tabs sub-tabs-2" id="nav-tab" role="tablist">
         <a onclick="changeView1()" class="nav-item nav-link active" id="nav-early-tab" data-toggle="tab" href="#nav-early" role="tab" aria-controls="nav-home" aria-selected="true">EARLY STAGE</a>
         <a onclick="changeView2()" class="nav-item nav-link" id="nav-late-tab" data-toggle="tab" href="#nav-late" role="tab" aria-controls="nav-profile" aria-selected="false">LATE STAGE</a>
+      </div!-->
+      <div class="dropdown" onmouseout="overflowHide()" onmouseover="overflowShow()">
+        <button class="dropbtn">STAGES <i class="arrow down"></i></button>
+        <div class="dropdown-content">
+          <a class="active" href="#" >EARLY OR ADVANCE</a>
+          <a href="#">METASTATIC</a>
+        </div>      
       </div>
-      <div class="nav nav-tabs sub-tabs sub-tabs-sticky-early" id="nav-tab-2" role="tablist">
-        <a class="nav-item nav-link active" id="nav-neoadjuvant-tab" data-toggle="tab" href="#nav-neoadjuvant" role="tab" aria-controls="nav-home" aria-selected="true">NEOADJUVANT</a>
-        <a class="nav-item nav-link" id="nav-surgery-tab" data-toggle="tab" href="#nav-surgery" role="tab" aria-controls="nav-profile" aria-selected="false"><span>SURGERY</span></a>
-        <a class="nav-item nav-link" id="nav-adjuvant-tab" data-toggle="tab" href="#nav-adjuvant" role="tab" aria-controls="nav-contact" aria-selected="false"><span>ADJUVANT</span></a>
-      </div>
-      <div class="second-view"><h3>QUALITY OF LIFE</h3></div>
+      <div class="nav sub-tabs sub-tabs-sticky-early">
+        <div class="nav nav-tabs sub-tabs sub-tabs-sticky-early" id="nav-tab-2" role="tablist">
+          <a class="nav-item nav-link active" id="nav-neoadjuvant-tab" data-toggle="tab" href="#nav-neoadjuvant" role="tab" aria-controls="nav-home" aria-selected="true">NEOADJUVANT</a>
+          <a class="nav-item nav-link" id="nav-surgery-tab" data-toggle="tab" href="#nav-surgery" role="tab" aria-controls="nav-profile" aria-selected="false"><span>SURGERY</span></a>
+          <a class="nav-item nav-link" id="nav-adjuvant-tab" data-toggle="tab" href="#nav-adjuvant" role="tab" aria-controls="nav-contact" aria-selected="false"><span>ADJUVANT</span></a>
+        </div>
+        <div class="nav nav-tabs sub-tabs sub-tabs-sticky-early second-row" id="nav-tab-2" role="tablist">
+          <a class="nav-item nav-link" id="nav-surgery-tab" data-toggle="tab" href="#nav-surgery" role="tab" aria-controls="nav-profile" aria-selected="false"><span>SURGERY</span></a>
+          <a class="nav-item nav-link" id="nav-adjuvant-tab" data-toggle="tab" href="#nav-adjuvant" role="tab" aria-controls="nav-contact" aria-selected="false"><span>ADJUVANT</span></a>
+        </div>
+      </div>  
+      <div class="second-view"><h3>QUALITY OF LIFE</h3></div></div>>    
     </div>
   </nav>
   
