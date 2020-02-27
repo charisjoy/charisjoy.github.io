@@ -36,8 +36,13 @@ function overflowShow(){
   document.querySelector('.top-main-nav').style.overflow = 'visible';
 }
 
-function overflowHide(){
-  document.querySelector('.top-main-nav').style.overflow = 'hidden';
+function toogleView(){
+    var x = document.getElementById("top-main-nav-toogle");
+    if (x.style.overflow === "") {
+      x.style.overflow = "visible";
+    } else {
+      x.style.overflow = "";
+    }
 }
 
 // tab selection

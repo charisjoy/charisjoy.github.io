@@ -78,16 +78,16 @@
         <a href="index.html" class="learn-breast">LEARN MORE ABOUT BREAST CANCER</a>
       </a>
     </div>
-    <div class="top-main-nav">
+    <div class="top-main-nav" id="top-main-nav-toogle">
       <!--div class="nav nav-tabs sub-tabs-2" id="nav-tab" role="tablist">
         <a onclick="changeView1()" class="nav-item nav-link active" id="nav-early-tab" data-toggle="tab" href="#nav-early" role="tab" aria-controls="nav-home" aria-selected="true">EARLY STAGE</a>
         <a onclick="changeView2()" class="nav-item nav-link" id="nav-late-tab" data-toggle="tab" href="#nav-late" role="tab" aria-controls="nav-profile" aria-selected="false">LATE STAGE</a>
       </div!-->
-      <div class="dropdown" onmouseout="overflowHide()" onmouseover="overflowShow()">
+      <div class="dropdown" onclick="toogleView()">
         <button class="dropbtn">STAGES <i class="arrow down"></i></button>
         <div class="dropdown-content">
-          <a onclick="changeView1()" class="active" href="#nav-early" >EARLY OR ADVANCED</a>
-          <a onclick="changeView2()" href="#nav-late">METASTATIC</a>
+          <a onclick="changeView1()" class="active" id="nav-early-tab" href="#nav-late" role="tab" aria-controls="nav-home" aria-selected="true">EARLY OR ADVANCED</a>
+          <a onclick="changeView2()" id="nav-late-tab" href="#nav-late" role="tab" aria-controls="nav-profile" aria-selected="false">METASTATIC</a>
         </div>      
       </div>
       <div class="nav sub-tabs sub-tabs-sticky-early">
@@ -96,7 +96,7 @@
           <a class="nav-item nav-link " id="nav-surgery-tab" data-toggle="tab" href="#nav-surgery" role="tab" aria-controls="nav-profile" aria-selected="false"><span>SURGERY</span></a>
           <a class="nav-item nav-link " id="nav-adjuvant-tab" data-toggle="tab" href="#nav-adjuvant" role="tab" aria-controls="nav-contact" aria-selected="false"><span>ADJUVANT</span></a>
         </div>
-        <div class="nav nav-tabs sub-tabs sub-tabs-sticky-early second-row" id="nav-tab-2" role="tablist">
+        <div class="nav nav-tabs sub-tabs sub-tabs-sticky-early sub-tabs-second-row" id="nav-tab-2" role="tablist">
           <a class="nav-item nav-link" id="nav-surgery-tab" data-toggle="tab" href="#nav-surgery" role="tab" aria-controls="nav-profile" aria-selected="false"><span>SURGERY</span></a>
           <a class="nav-item nav-link" id="nav-adjuvant-tab" data-toggle="tab" href="#nav-adjuvant" role="tab" aria-controls="nav-contact" aria-selected="false"><span>ADJUVANT</span></a>
         </div>
