@@ -25,21 +25,28 @@ document.querySelector('.to-play-video').addEventListener('click', function () {
 function changeView1() {
   document.querySelector('.sub-tabs-sticky-early').style.display = 'flex';
   document.querySelector('.second-view').style.display = 'none';
+  document.querySelector('#nav-early-tab').className  = 'active';
+  document.querySelector('#nav-early-tab').innerText = 'EARLY OR ADVANCED';
+  nav-early-tab
 }
 
 function changeView2() {
   document.querySelector('.sub-tabs-sticky-early').style.display = 'none';
   document.querySelector('.second-view').style.display = 'flex';
-}
-
-function overflowShow(){
-  document.querySelector('.top-main-nav').style.overflow = 'visible';
+  document.querySelector('#nav-early-tab').className  = 'active';
+  document.querySelector('#nav-late-tab').className  = 'active';
+  document.querySelector('#nav-early-tab').innerText = 'METASTATIC';
 }
 
 function toogleView(){
+    
     var x = document.getElementById("top-main-nav-toogle");
     if (x.style.overflow === "") {
       x.style.overflow = "visible";
+      document.querySelector('#nav-early-tab').innerText = 'EARLY OR ADVANCED';
+      document.querySelector('#nav-late-tab').innerText = 'METASTATIC';
+      document.querySelector('#nav-early-tab').className  = '';
+      document.querySelector('#nav-late-tab').className  = '';
     } else {
       x.style.overflow = "";
     }
