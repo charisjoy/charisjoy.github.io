@@ -2057,7 +2057,7 @@ div.card-image.last > *:not(:last-of-type) {
   margin-right: -118px;
 }
 .sub-tabs.second-row > a:not(:last-of-type) {
-  margin-right: -136px;
+  margin-right: -157px;
 }
 
 @media (max-width: 37.5em) {
@@ -2086,6 +2086,12 @@ div.card-image.last > *:not(:last-of-type) {
   position: relative;
   z-index: 99;
 }
+.sub-tabs-firstrow > a:nth-child(2) {
+  -webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+  clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+  margin-right: -158px;
+}
+
 
 .tab-heading {
   color: #85cdc7;
