@@ -87,7 +87,7 @@
         <button class="dropbtn">STAGES <i class="arrow down"></i></button>
         <div class="dropdown-content">
           <a onclick="changeView1()" class="active" id="nav-early-tab" href="#nav-late" role="tab" aria-controls="nav-home" aria-selected="true">EARLY OR ADVANCED</a>
-          <a onclick="changeView2()" id="nav-late-tab" href="#nav-late" role="tab" aria-controls="nav-profile" aria-selected="false">METASTATIC</a>
+          <a onclick="changeView2()" id="nav-late-tab" href="#nav-quality-life" role="tab" aria-controls="nav-profile" aria-selected="false">METASTATIC</a>
         </div>      
       </div>
       <div class="nav sub-tabs sub-tabs-sticky-early">
@@ -101,7 +101,10 @@
           <a class="nav-item nav-link" id="nav-adjuvant-tab" data-toggle="tab" href="#nav-adjuvant" role="tab" aria-controls="nav-contact" aria-selected="false"><span>ADJUVANT</span></a>
         </div>
       </div>  
-      <div class="second-view"><h3>QUALITY OF LIFE</h3></div></div>>    
+      <div class="nav sub-tabs-quality-life second-view">         
+          <a class="nav-item nav-link" id="nav-nav-quality-life-tab" data-toggle="tab" href="#nav-quality-life" role="tab" aria-controls="nav-profile" aria-selected="true">QUALITY OF LIFE</a>
+      </div>
+    </div>  
     </div>
   </nav>
   
@@ -112,9 +115,10 @@
         <div class="tab-pane fade show active" id="nav-early" role="tabpanel" aria-labelledby="nav-early-tab">
           <section class="container" style="padding: 0;">
             <div class="text-box-onscroll">
-              Early-stage cancer describes cancer that is still early in its growth, and is localised to one area of the body. At this stage, mutations multiply and can be harder to control.
+              Early-stage cancer describes cancer that is still early in its growth, and is localised to one area of the body.
             </div>
             <section class="tab-content treatment" id="nav-tabContent">
+
               <!-- NEOADJUVANT -->
               <div class="tab-pane fade show active" id="nav-neoadjuvant" role="tabpanel" aria-labelledby="nav-neoadjuvant-tab">
                 <div class="tab-sub-text">Treatment given before surgery may be referred to as neoadjuvant therapy. This treatment aims to reduce the size of the tumor.</div>
@@ -468,6 +472,128 @@
                   </div>         
                 </article>
               </div>
+
+              <!-- METASTATIC -->
+              <div class="tab-pane fade" id="nav-quality-life" role="tabpanel" aria-labelledby="nav-nav-quality-life-tab">
+                <div class="tab-sub-text">Treatment given before surgery may be referred to as neoadjuvant therapy. This treatment aims to reduce the size of the tumor.</div>
+                <article class="row">
+                  <div class="col-md-6">
+                    <h2 class="tab-heading">Treatment Goals</h2>
+                    <ul class="lists">
+                      <li>Reduction of tumour size</li>
+                      <li>Render tumour operable</li>
+                      <li>De-escalate surgery Neoadjuvant/Surgery/adjuvant</li>
+                    </ul>
+                    <p style="margin-bottom: 1px;">Neo-Adjuvant Treatment Cycles:</p>
+                    <p>One of the goals for neoadjuvant treatment is to help the tumor size before surgery and optimise the patiet's treatment outcome</p>
+                  </div>
+                  <div class="col-md-6">
+                    <div id="carouselExampleControls4" class="carousel slide" data-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="assets/media/image/Early-Stage/Neoadjuvant/treatmentgoals-1.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="assets/media/image/Early-Stage/Neoadjuvant/treatmentgoals-2.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="assets/media/image/Early-Stage/Neoadjuvant/treatmentgoals-3.png" class="d-block w-100" alt="...">
+                        </div>
+                      </div>
+                      <a class="carousel-control-prev" href="#carouselExampleControls4" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="carousel-control-next" href="#carouselExampleControls4" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                    </div>
+                  </div>
+                </article>
+            
+                <article class="row success-rates">
+                  <div class="col-md-6">
+                    <img src="assets/media/image/Early-Stage/Neoadjuvant/success-rate.png" alt="">
+                  </div>
+                  <div class="col-md-6">
+                    <h3 class="tab-heading">Success Rates</h3>
+                    <p>Before surgery (neoadjuvant therapy), or after surgery (adjuvant therapy). Radiotherapy is usually given after Surgery</p>
+                    <p>It is usually given over 3 to 6 months and may be used alone, before surgery (neoadjuvant) or after surgery (adjuvant) therapy, or together with targeted therapy to increase the effectiveness of the treatment, depending on the type and stage of cancer</p>
+                  </div>
+                </article>
+      
+                <article class="container lifestyle-tips">
+                  <h3 class="text-center">Lifestyle Tips</h3>
+                  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div class="row">
+                          <div class="col-md-6">
+                            <img src="assets/media/image/Early-Stage/Neoadjuvant/lifestyle-1.png" class="d-block w-100" alt="Tips Photo">
+                          </div>
+                          <div class="col-md-6">
+                            <div>
+                              <h3 class="tab-heading">Get ready for side effects</h3>
+                              <p class="tab-text">Side effects incude nausea, appetite loss, fever, bruising and pain. Keep in mind that these won't last long and steps can be undertaken to prevent or reduce them.</p>
+                              <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                              </ol>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="row">
+                          <div class="col-md-6">
+                            <img src="assets/media/image/Early-Stage/Neoadjuvant/lifestyle-2.png" class="d-block w-100" alt="Tips Photo">
+                          </div>
+                          <div class="col-md-6">
+                            <div>
+                              <h3 class="tab-heading">Rest</h3>
+                              <p class="tab-text">As cancer drugs also affect normal cells, the resting period allows the body to recover before the next treatment cycle starts.</p>
+                              <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleCaptions" data-slide-to="0"></li>
+                                <li data-target="#carouselExampleCaptions" data-slide-to="1" class="active"></li>
+                                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                              </ol>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="row">
+                          <div class="col-md-6">
+                            <img src="assets/media/image/Early-Stage/Neoadjuvant/lifestyle-3.png" class="d-block w-100" alt="Tips Photo">
+                          </div>
+                          <div class="col-md-6">
+                            <div>
+                              <h3 class="tab-heading">Consult your doctor</h3>
+                              <p class="tab-text">Discuss some issues with the doctor, by asking questions such as: "What procedures are being considered?" "How long will the treatment journey take?" and "What is the cost of therapy?".</p>
+                              <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleCaptions" data-slide-to="0"></li>
+                                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleCaptions" data-slide-to="2" class="active"></li>
+                              </ol>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev slides-switcher" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next slides-switcher" href="#carouselExampleCaptions" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>         
+                </article>
+              </div>
+
             </section>
           </section>
         </div>

@@ -27,7 +27,6 @@ function changeView1() {
   document.querySelector('.second-view').style.display = 'none';
   document.querySelector('#nav-early-tab').className  = 'active';
   document.querySelector('#nav-early-tab').innerText = 'EARLY OR ADVANCED';
-  nav-early-tab
 }
 
 function changeView2() {
@@ -36,10 +35,11 @@ function changeView2() {
   document.querySelector('#nav-early-tab').className  = 'active';
   document.querySelector('#nav-late-tab').className  = 'active';
   document.querySelector('#nav-early-tab').innerText = 'METASTATIC';
+  var link = document.getElementById('nav-nav-quality-life-tab');
+  link.click();
 }
 
 function toogleView(){
-    
     var x = document.getElementById("top-main-nav-toogle");
     if (x.style.overflow === "") {
       x.style.overflow = "visible";
@@ -51,11 +51,6 @@ function toogleView(){
       x.style.overflow = "";
     }
 }
-
-// tab selection
-document.querySelector('.nav-item').addEventListener('click', function () {
-  document.querySelector('.sub-tabs.nav-item').remove = 'active';
-});
 
 
 window.onscroll = function () {
