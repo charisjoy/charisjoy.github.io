@@ -27,6 +27,9 @@ function changeView1() {
   document.querySelector('.second-view').style.display = 'none';
   document.querySelector('#nav-early-tab').className  = 'active';
   document.querySelector('#nav-early-tab').innerText = 'EARLY OR ADVANCED';
+  document.querySelector('#nav-late').className  = 'tab-pane fade';
+  document.querySelector('#nav-early').className  = 'tab-pane fade show active';
+ 
 }
 
 function changeView2() {
@@ -34,9 +37,10 @@ function changeView2() {
   document.querySelector('.second-view').style.display = 'flex';
   document.querySelector('#nav-early-tab').className  = 'active';
   document.querySelector('#nav-late-tab').className  = 'active';
-  document.querySelector('#nav-early-tab').innerText = 'METASTATIC';
-  var link = document.getElementById('nav-nav-quality-life-tab');
-  link.click();
+  document.querySelector('#nav-early-tab').innerText = 'METASTATIC'; 
+  document.querySelector('#nav-early').className  = 'tab-pane fade';
+  document.querySelector('#nav-late').className  = 'tab-pane fade show active';
+  //var link = document.getElementById('nav-nav-quality-life-tab').click();
 }
 
 function toogleView(){
