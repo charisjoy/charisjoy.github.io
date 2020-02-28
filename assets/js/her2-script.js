@@ -40,7 +40,6 @@ function changeView2() {
   document.querySelector('#nav-early-tab').innerText = 'METASTATIC'; 
   document.querySelector('#nav-early').className  = 'tab-pane fade';
   document.querySelector('#nav-late').className  = 'tab-pane fade show active';
-  //var link = document.getElementById('nav-nav-quality-life-tab').click();
 }
 
 function toogleView(){
