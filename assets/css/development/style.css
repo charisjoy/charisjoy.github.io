@@ -2385,6 +2385,13 @@ header.her2-header .title-box h1 {
 .top-main-nav .sub-tabs-sticky-early {
   width: 100%;
 }
+
+@media (max-width: 37.5em) {
+  .top-main-nav .sub-tabs-sticky-early {
+    margin-left: 31px;
+  }
+}
+
 @media (max-width: 37.5em) {
   .top-main-nav .sub-tabs-sticky-early > a {
     font-size: 0.625rem !important;
@@ -2404,7 +2411,7 @@ header.her2-header .title-box h1 {
 }
 @media (max-width: 37.5em) {
   .top-main-nav .sub-tabs-sticky-early > a:first-of-type {
-    margin-left: -0.9375rem;
+    margin-left: -3.9375rem;
   }
 }
 .top-main-nav .second-view {
@@ -4633,7 +4640,7 @@ mark,
 
 @media (max-width: 37.5em) {
   .dropbtn {
-    width: 69%;
+    width: 96%;
     font-size: 12px;
     padding: 5px 0 1px 7px;
     margin-right: 17px;
@@ -4658,7 +4665,7 @@ mark,
 
 @media (max-width: 37.5em){
   .dropdown{
-    width: 89%;
+    width: 42%;
   }
 }
 
@@ -4688,13 +4695,14 @@ mark,
 
 @media (max-width: 37.5em){
   .dropdown-content{
-    width: 70%;
+    width: 97%
   }
 }
 
 @media (max-width: 37.5em){
   .dropdown-content a{
     font-size: 12px;
+    margin-right: 1px;
   }
 }
 
@@ -4724,7 +4732,7 @@ i{
 
 @media (max-width: 37.5em){
   i{
-    margin: 0 0 5px 45px;
+    margin: 1px 0 0 13px;
   }
 }
 
