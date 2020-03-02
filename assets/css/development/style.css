@@ -2030,10 +2030,6 @@ div.card-image.last > *:not(:last-of-type) {
   background-image: linear-gradient(#85cdc7, #85cdc7);
 }
 
-#nav-late .text-box-onscroll{
-  padding-top: 22px !important;
-}
-
 .sub-tabs > a, .sub-tabs-2 > a {
   color: #fff !important;
   font-size: 14px !important;
@@ -2075,7 +2071,7 @@ div.card-image.last > *:not(:last-of-type) {
 
 @media (max-width: 37.5em) {
   .sub-tabs.sub-tabs-sticky-early > a:not(:last-of-type) {
-    margin-right: -50px;
+    margin-right: -37px;
   }
 }
 
@@ -2392,15 +2388,15 @@ header.her2-header .title-box h1 {
 
 @media (max-width: 37.5em) {
   .top-main-nav .sub-tabs-sticky-early {
-    margin-left: 29px;
+    margin-left: 31px;
   }
 }
 
 @media (max-width: 37.5em) {
   .top-main-nav .sub-tabs-sticky-early > a {
-    font-size: 0.450rem !important;
+    font-size: 0.625rem !important;
     font-weight: normal;
-    padding: 27px;
+    padding: 0;
   }
 }
 @media (max-width: 21.875em) {
@@ -4644,8 +4640,8 @@ mark,
 
 @media (max-width: 37.5em) {
   .dropbtn {
-    width: 93%;
-    font-size: 10px;
+    width: 96%;
+    font-size: 12px;
     padding: 5px 0 1px 7px;
     margin-right: 17px;
   }
@@ -4670,7 +4666,6 @@ mark,
 @media (max-width: 37.5em){
   .dropdown{
     width: 42%;
-    margin-left: 8px;
   }
 }
 
@@ -4700,14 +4695,14 @@ mark,
 
 @media (max-width: 37.5em){
   .dropdown-content{
-    width: 93%;
+    width: 97%
   }
 }
 
 @media (max-width: 37.5em){
   .dropdown-content a{
-    font-size: 10px;
-    margin-right: 0;
+    font-size: 12px;
+    margin-right: 1px;
   }
 }
 
