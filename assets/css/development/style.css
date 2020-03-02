@@ -2075,7 +2075,7 @@ div.card-image.last > *:not(:last-of-type) {
 
 @media (max-width: 37.5em) {
   .sub-tabs.sub-tabs-sticky-early > a:not(:last-of-type) {
-    margin-right: -37px;
+    margin-right: -67px;
   }
 }
 
@@ -2392,7 +2392,7 @@ header.her2-header .title-box h1 {
 
 @media (max-width: 37.5em) {
   .top-main-nav .sub-tabs-sticky-early {
-    margin-left: 31px;
+    margin-left: 29px;
   }
 }
 
@@ -4644,7 +4644,7 @@ mark,
 
 @media (max-width: 37.5em) {
   .dropbtn {
-    width: 96%;
+    width: 93%;
     font-size: 12px;
     padding: 5px 0 1px 7px;
     margin-right: 17px;
@@ -4699,14 +4699,14 @@ mark,
 
 @media (max-width: 37.5em){
   .dropdown-content{
-    width: 97%
+    width: 93%;
   }
 }
 
 @media (max-width: 37.5em){
   .dropdown-content a{
     font-size: 12px;
-    margin-right: 1px;
+    margin-right: 0;
   }
 }
 
