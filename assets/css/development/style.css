@@ -2389,6 +2389,7 @@ header.her2-header .title-box h1 {
 @media (max-width: 37.5em) {
   .top-main-nav .sub-tabs-sticky-early {
     margin-left: 31px;
+    margin-right: 1px;
   }
 }
 
@@ -2926,6 +2927,13 @@ a:not([href]):hover {
   color: inherit;
   text-decoration: none;
 }
+
+@media (max-width: 37.5em){
+  a:not([href]):hover {
+    color: #f8f9fa;
+  }
+}
+
 
 pre,
 code,
@@ -4764,4 +4772,11 @@ i{
 
 .dropdown{
   margin-right: 2px;
+}
+
+@media (max-width: 37.5em){
+  .dropdown{
+    margin-right: 1px;
+    margin-left: 2px;
+  }
 }
