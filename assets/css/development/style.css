@@ -4777,6 +4777,12 @@ i{
   margin-bottom: 4px;
 }
 
+@media (max-width: 37.5em){
+  .dropdown{
+    margin-bottom: 2px;
+  }
+}
+
 .dropdown{
   margin-right: 2px;
 }
