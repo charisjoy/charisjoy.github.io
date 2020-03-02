@@ -2030,6 +2030,10 @@ div.card-image.last > *:not(:last-of-type) {
   background-image: linear-gradient(#85cdc7, #85cdc7);
 }
 
+#nav-late .text-box-onscroll{
+  padding-top: 22px !important;
+}
+
 .sub-tabs > a, .sub-tabs-2 > a {
   color: #fff !important;
   font-size: 14px !important;
