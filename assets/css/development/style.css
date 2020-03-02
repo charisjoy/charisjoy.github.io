@@ -2063,8 +2063,10 @@ div.card-image.last > *:not(:last-of-type) {
 }
 
 .sub-tabs.sub-tabs-sticky-early > a:not(:last-of-type) {
-  margin-right: -146px
+  margin-right: -144px
 }
+
+
 .sub-tabs.second-row > a:not(:last-of-type) {
   margin-right: -157px;
 }
@@ -2386,6 +2388,7 @@ header.her2-header .title-box h1 {
   width: 100%;
 }
 
+
 @media (max-width: 37.5em) {
   .top-main-nav .sub-tabs-sticky-early {
     margin-left: 31px;
@@ -2405,10 +2408,19 @@ header.her2-header .title-box h1 {
     font-size: 0.5625rem !important;
   }
 }
+
+.top-main-nav .sub-tabs-firstrow > a > span {
+  margin-left: 6.4375rem;
+}
+
 @media (max-width: 37.5em) {
   .top-main-nav .sub-tabs-sticky-early > a > span {
     margin-left: 1.4375rem;
   }
+}
+
+.top-main-nav .sub-tabs-sticky-early > a:nth-child(2) > span {
+  margin-left: 2.4375rem;
 }
 
 @media (max-width: 37.5em) {
@@ -2423,11 +2435,15 @@ header.her2-header .title-box h1 {
     padding: 0 5px 0 0;
   }
 }
+.top-main-nav .sub-tabs-second-row > a:first-of-type {
+  padding: 0 60px 0 0;
+}
 @media (max-width: 37.5em) {
   .top-main-nav .sub-tabs-second-row > a:first-of-type {
     padding: 0 60px 0 0;
   }
 }
+
 @media (max-width: 37.5em) {
   .top-main-nav .sub-tabs-second-row > a:last-child {
     margin-left: -28px;
@@ -4776,10 +4792,15 @@ i{
 .sub-tabs-firstrow{
   margin-bottom: 4px;
 }
+@media (max-width: 37.5em){
+  .sub-tabs-firstrow{
+    margin-bottom: 2px;
+  }
+}
 
 @media (max-width: 37.5em){
   .dropdown{
-    margin-bottom: 2px;
+    margin-bottom: 1px;
   }
 }
 
