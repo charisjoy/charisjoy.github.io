@@ -2410,11 +2410,13 @@ header.her2-header .title-box h1 {
     margin-left: 1.4375rem;
   }
 }
+
 @media (max-width: 37.5em) {
   .top-main-nav .sub-tabs-sticky-early > a:nth-child(2) > span {
     margin-left: 0.4375rem;
   }
 }
+
 @media (max-width: 37.5em) {
   .top-main-nav .sub-tabs-sticky-early > a:first-of-type {
     margin-left: -3.9375rem;
