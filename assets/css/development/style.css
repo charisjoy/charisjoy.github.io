@@ -2429,6 +2429,10 @@ header.her2-header .title-box h1 {
   }
 }
 
+.top-main-nav .sub-tabs-sticky-early > a:nth-child(2) > span {
+  padding-left: 45px;
+}
+
 @media (max-width: 37.5em) {
   .top-main-nav .sub-tabs-sticky-early > a:first-of-type {
     margin-left: -3.9375rem;
@@ -4811,6 +4815,17 @@ i{
 @media (max-width: 37.5em){
   .dropdown{
     margin-right: 1px;
-    margin-left: 2px;
+    margin-left: 5px;
   }
+}
+
+@media (max-width: 37.5em){
+  .second-view{
+    margin-left: -3px;
+    display: flex;
+  }
+}
+
+.text-box-onscroll-late{
+  padding-top: 24px !important;
 }
